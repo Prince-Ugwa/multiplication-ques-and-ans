@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: yellow;
+  font-family: sans-serif;
+}
+.container {
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#form {
+  background-color: #fff;
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#form .score {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#form .score span {
+  color: #127020;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+#question {
+  font-size: 48px;
+  margin-bottom: 26px;
+}
+.input {
+  display: block;
+  padding: 12px 19px;
+  width: 100%;
+  font-size: 24px;
+  color: #0c5d18;
+  text-align: center;
+  border: 1px #0c5d18 solid;
+  margin-bottom: 24px;
+}
+.input:focus {
+  outline: none;
+  border: 2px #0c5d18 solid;
+}
+.btn {
+  display: block;
+  cursor: pointer;
+  padding: 16px 16px;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #127020;
+  color: #fff;
+  transition: 0.3s ease;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #0c5d18;
+}
+.circle1,
+.circle2 {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  top: 10px;
+  right: 2px;
+  border: 2px solid yellow;
+  border-radius: 50%;
+}
+
+.circle2 {
+  top: 5px;
+  right: 12px;
+  border: 2px solid #bcbcbc;
+}
